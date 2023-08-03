@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #222, #555);
+    color: white;
+    margin: 0;
+    font-size: 1.1rem;
+}
+.navegacion{
+    background-color: black;
+    padding: 20px 0px;
+    margin: 0;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    float: right;
+}
+.menu li{
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+.menu li:hover{
+    color:aquamarine;
+    transition: 1s;
+    cursor: pointer;
+}
+.fondo{
+    background-image: url(./istockphoto-1341348395-612x612.jpg);
+    padding: 5px 0;
+    margin: 10px 0;
+    background-attachment: fixed;
+}
+h1{
+    margin-top: 100px;
+    font-size: 3rem;
+}
+#boton{
+    color:beige;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 2px;
+}
+#boton:hover{
+    background-color: white;
+    border: solid 2px black;
+    color:black;
+    transition: 0.6s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tarjetas{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    background-color: black;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 0 5px;
+    flex-basis: 400px;
+}
+.tarjeta:hover{
+    background: white;
+    color:black;
+    transition: 0.5s;
+}
+.articulo{
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    justify-content: center;
+    
+}
+.imagen{
+    height: 300px;
+    margin: 0 70px;
+    border-radius: 30px;
+
+}
+.texto{
+    margin: 0 70px;
+}
+.texto p a{
+    text-decoration: none;
+    color:aquamarine;
+}
+.pie{
+    background: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    background: white;
+    color:black;
+    margin:50px;
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 50px;
+    
+}
+.social:hover{
+    background: aquamarine;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#fb{
+    height: 20px;
+    margin-right: 10px;
+}
+#ig{
+    height: 20px;
+    margin-right: 10px;
+}
+#tw{
+    height: 20px;
+    margin-right: 10px;
+}
+.oscurecerImagen{
+    filter:brightness(50%);
+    z-index: -1;
+}
+.restaurar{
+    filter:brightness(100%);
+}
+.faq h3{
+    cursor: pointer;
+    width: 530px;
+    margin:20px auto;
+}
+.colorRespuesta{
+    color: aquamarine;
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+#carrusel {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    animation: fadeIn 5s;
+    border-radius: 10px;
+}
+.cambioImagen{
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#avanzar, #retroceder{
+    background: black;
+    color: white;
+    border: solid 3px white;
+    height: 50px;
+    margin: 0 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+#retroceder:hover{
+    background: aquamarine;
+    color:black;
+    border: solid 3px black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+#avanzar:hover{
+    background: aquamarine;
+    color:black;
+    border: solid 3px black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
